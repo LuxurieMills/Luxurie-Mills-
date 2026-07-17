@@ -1,4 +1,12 @@
 Step1: 
-I structured my repository using a reproducible bioinformatics workflow. 
-I separated notebooks, scripts, data documentation, 
-and results to make the analysis easier to maintain and reproduce.
+I structured my repository using a reproducible bioinformatics workflow. I separated notebooks, scripts, data documentation, and results to make the analysis easier to maintain and reproduce.
+
+Step2: Biology Foundation: PBMC 3k Dataset
+Learned:
+- PBMC stands for Peripheral Blood Mononuclear Cells
+- The dataset contains immune cells from human blood
+- Single-cell RNA-seq measures gene expression at the individual cell level
+- The goal is to identify cell populations based on gene expression patterns
+
+Interview Explanation:
+"This project analyzes single-cell RNA-seq data from PBMCs to identify immune cell populations based on gene expression patterns. I use Scanpy to perform quality control, dimensionality reduction, clustering, and visualization."
