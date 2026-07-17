@@ -10,3 +10,15 @@ Learned:
 
 Interview Explanation:
 "This project analyzes single-cell RNA-seq data from PBMCs to identify immune cell populations based on gene expression patterns. I use Scanpy to perform quality control, dimensionality reduction, clustering, and visualization."
+
+Step3: Scanpy Data Structure: AnnData
+
+Learned:
+- Scanpy uses AnnData objects to organize single-cell RNA-seq data
+- X contains gene expression values: Expression Matrix: "How much RNA expression was measured?"
+- obs contains cell-level metadata
+- var contains gene-level metadata
+- obsm stores dimensionality reduction results such as PCA and UMAP: RESULTS
+
+Interview Explanation:
+"I used Scanpy's AnnData structure to organize and analyze single-cell RNA-seq data. This allowed me to manage expression matrices, metadata, and analysis outputs in a reproducible workflow."
